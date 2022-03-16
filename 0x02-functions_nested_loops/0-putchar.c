@@ -5,16 +5,16 @@
  */
 int main(void)
 {
-    char text[8] = "_putchar";
-    int i = 0;
+char text[8] = "_putchar";
+int i = 0;
 
-    while (i < 8)
-    {
-            _putchar(text[i]);
-            i++;
-    }
-    _putchar('\n');
+while (i < 8)
+{
+_putchar(text[i]);
+i++;
+}
+_putchar('\n');
 
-    return (0);
+return (0);
 }
 
