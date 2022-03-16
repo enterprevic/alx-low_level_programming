@@ -3,7 +3,6 @@
  * main -  prints putchar, followed by a new line
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
     char text[8] = "_putchar";
@@ -16,6 +15,6 @@ int main(void)
     }
     _putchar('\n');
 
-    return 0;
+    return (0);
 }
 
